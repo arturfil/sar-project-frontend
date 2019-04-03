@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="main-cont">
         <h2>Sar Project - Volcanoes</h2>
-        <Volcanoes/>
+        <h2>Changing components from windows laptop</h2>
       </div>
     )
   }
