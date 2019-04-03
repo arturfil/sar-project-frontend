@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Card } from 'react-bootstrap'
+import './Volcanoes.css';
 
 class Volcanoes extends Component {
    constructor() {
@@ -24,7 +25,7 @@ class Volcanoes extends Component {
             <div className="row">
               {this.state.volcanoes.map(volcano => 
               <div className="col-4">
-                <Card style={{ width: '18rem' }}>
+                <Card className="card-cont" style={{ width: '18rem' }}>
                   <Card.Img variant='top' src={volcano.img} />
                   <Card.Body>
                     <Card.Title>{volcano.name}</Card.Title>
@@ -44,6 +45,8 @@ class Volcanoes extends Component {
       </div>
     )
   }
+
+  
 }
 
 export default Volcanoes;

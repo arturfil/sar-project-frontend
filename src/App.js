@@ -9,8 +9,8 @@ class App extends Component {
   render() {
     return (
       <div className="main-cont">
-        <h2>Sar Project - Volcanoes</h2>
-        <Volcanoes/>
+        {/* <Volcanoes/> */}
+        <h2>Test</h2>
       </div>
     )
   }
